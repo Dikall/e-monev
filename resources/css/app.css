@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    overflow-y: hidden; /* mematikan scroll global */
+}
+
+.profile-bp {
+    height: 100%;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+.profile-bp::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
